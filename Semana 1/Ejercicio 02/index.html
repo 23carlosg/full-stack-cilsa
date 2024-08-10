@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="background">
+        <h1>Formulario de Datos Personales</h1>
+        <form class="form">
+            <label for="">Nombre:</label>
+            <input id="name" type="text">
+
+            <label for="">Apellido:</label>
+            <input id="surname" type="text">
+
+            <label for="">Email:</label>
+            <input id="email" type="email">
+
+            <label for="">Fecha de Nacimiento:</label>
+            <input id="birthdate" type="date">
+
+            <label for="">País de Residencia:</label>
+            <input id="country" type="text">
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <button class="btn-estilos" onclick="estilo1()" type="submit">Estilo 1</button>
+        <button class="btn-estilos" onclick="altoContraste()" type="submit">Estilo de Alto Contraste</button>
+    </div>
+    <script>
+        function estilo1() {
+            document.body.classList.remove("alto-contraste");
+        }
+        function altoContraste() {
+            document.body.classList.add("alto-contraste");
+        }
+    </script>
+</body>
+
+</html>
