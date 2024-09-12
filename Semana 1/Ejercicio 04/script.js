@@ -15,12 +15,12 @@ function estiloNormal() {
 }
 
 function estiloAltoContraste() {
-    form.classList.toggle("bg-form");
-    labels.forEach(btn => btn.classList.toggle("txt-white"));
-    h2.classList.toggle("txt-white");
+    form.classList.add("bg-form");
+    labels.forEach(btn => btn.classList.add("txt-white"));
+    h2.classList.add("txt-white");
     buttons.forEach(btn => {
         btn.classList.remove("btn-primary");
-        btn.classList.toggle("bg-yellow");
-        btn.classList.toggle("txt-black");
+        btn.classList.add("bg-yellow");
+        btn.classList.add("txt-black");
     });
 }
