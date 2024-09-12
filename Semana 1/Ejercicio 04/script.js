@@ -10,6 +10,7 @@ function estiloNormal() {
     buttons.forEach(btn => {
         btn.classList.remove("bg-yellow");
         btn.classList.remove("txt-black");
+        btn.classList.add("btn-primary");
     });
 }
 
