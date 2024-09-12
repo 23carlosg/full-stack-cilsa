@@ -1,3 +1,19 @@
 .bg-lightblue {
     background-color: rgba(158, 171, 185, 0.706);
 }
+
+.bg-form {
+    background-color: black;
+}
+
+.txt-white {
+    color: white;
+}
+
+.bg-yellow {
+    background-color: yellow !important;
+}
+
+.txt-black {
+    color: black  !important;
+}
